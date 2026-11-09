@@ -12,4 +12,4 @@
 | `coppertilt_tty.pyz` | każdy system z Pythonem 3 | `python3 coppertilt_tty.pyz` |
 | `SHA256SUMS` | — | `sha256sum -c SHA256SUMS` |
 
-Kod źródłowy: <https://github.com/Adam-LX/coppertilt>
+Źródła gry nie są na razie publiczne — tu są tylko gotowe paczki do pobrania.
