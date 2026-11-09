@@ -1,4 +1,5 @@
-# Copper Tilt — pobieranie / downloads
+# When Lit — pobieranie / downloads
+*(paczki release na razie nadal `CopperTilt-*` — zmienimy przy następnym shipie)*
 
 **Wszystkie wersje: <https://github.com/Adam-LX/coppertilt-releases/releases>**
 
