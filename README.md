@@ -1,15 +1,29 @@
-# When Lit — pobieranie / downloads
-*(paczki release na razie nadal `CopperTilt-*` — zmienimy przy następnym shipie)*
+# Tiltbit — downloads
 
-**Wszystkie wersje: <https://github.com/Adam-LX/coppertilt-releases/releases>**
+**All releases: <https://github.com/Adam-LX/coppertilt-releases/releases>**
 
-| Plik | System | Jak uruchomić |
+The easiest way to play is the launcher. It checks GitHub for the latest
+build, verifies the SHA-256 checksum, installs it, and starts the game.
+On NixOS it uses `steam-run` when that command is available.
+
+**Stable “latest” links** (asset names do not include a version number):
+
+- Windows launcher (one `.exe`):
+  <https://github.com/Adam-LX/coppertilt-releases/releases/latest/download/Tiltbit-Launcher.exe>
+- Windows game zip:
+  <https://github.com/Adam-LX/coppertilt-releases/releases/latest/download/Tiltbit-windows-x86_64.zip>
+
+| File | System | How to run |
 |---|---|---|
-| `CopperTilt-windows-x86_64.zip` | Windows 10/11, 64-bit | rozpakuj, uruchom `CopperTilt.exe` (SmartScreen: „Więcej informacji” → „Uruchom mimo to”) |
-| `CopperTilt-linux-x86_64.zip` | Linux, 64-bit | rozpakuj, `./CopperTilt.x86_64` |
-| `CopperTilt-terminal-linux-x86_64` | Linux, 64-bit, terminal | `chmod +x CopperTilt-terminal-linux-x86_64 && ./CopperTilt-terminal-linux-x86_64` |
-| `CopperTilt-terminal-windows-x86_64.zip` | Windows, terminal | rozpakuj, uruchom `CopperTilt-terminal.bat` (Python jest w paczce) |
-| `coppertilt_tty.pyz` | każdy system z Pythonem 3 | `python3 coppertilt_tty.pyz` |
+| `Tiltbit-Launcher.exe` | Windows 10/11, 64-bit | run the file (SmartScreen: “More info” → “Run anyway”) |
+| `Tiltbit-Launcher-windows-x86_64.zip` | Windows 10/11, 64-bit | unzip and run `Tiltbit-Launcher.exe` |
+| `Tiltbit-Launcher-linux-x86_64.zip` | Linux, 64-bit | unzip and run `./Tiltbit-Launcher.x86_64` |
+| `Tiltbit-windows-x86_64.zip` | Windows 10/11, 64-bit | unzip and run `Tiltbit.exe` |
+| `Tiltbit-linux-x86_64.zip` | Linux, 64-bit | unzip and run `./Tiltbit.x86_64` |
+| `Tiltbit-terminal-linux-x86_64` | Linux, terminal | `chmod +x Tiltbit-terminal-linux-x86_64 && ./Tiltbit-terminal-linux-x86_64` |
+| `Tiltbit-terminal-windows-x86_64.zip` | Windows, terminal | unzip and run `Tiltbit-terminal.bat` (Python is bundled) |
+| `coppertilt_tty.pyz` | any system with Python 3 | `python3 coppertilt_tty.pyz` |
 | `SHA256SUMS` | — | `sha256sum -c SHA256SUMS` |
 
-Źródła gry nie są na razie publiczne — tu są tylko gotowe paczki do pobrania.
+The game source is not in a public repository right now — this page is only
+the ready-to-run packages.
